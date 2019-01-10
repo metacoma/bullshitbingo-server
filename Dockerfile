@@ -4,7 +4,9 @@ RUN opm install                                       \
       bungle/lua-resty-template                       \
       jprjr/lua-resty-exec                            \
       agentzh/lua-resty-http                          \
+      xiangnanscu/lua-resty-random                    \
       thibaultcha/lua-resty-jit-uuid
+
 
 RUN luarocks install inspect
 RUN luarocks install router
